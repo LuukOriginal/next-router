@@ -1,19 +1,31 @@
 {
   "name": "@rbxts/next-router",
   "version": "1.0.0",
-  "main": "out/init.lua",
+  "main": "out/init.luau",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "roblox",
+		"typescript",
+		"react",
+		"router",
+		"nextjs",
+		"rbxts",
+		"ui"
+  ],
+  "author": "LuukOriginal",
   "license": "ISC",
   "description": "",
   "types": "out/index.d.ts",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/LuukOriginal/next-router.git"
+	},
   "files": [
-    "out",
+    "out/**/*",
     "!**/*.tsbuildinfo"
   ],
   "publishConfig": {
@@ -37,5 +49,6 @@
     "prettier": "^3.5.3",
     "roblox-ts": "^3.0.0",
     "typescript": "^5.8.3"
-  }
+  },
+  "homepage": "https://github.com/LuukOriginal/next-router"
 }
